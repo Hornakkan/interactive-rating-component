@@ -2,6 +2,8 @@ const allGrades = document.querySelectorAll('.grade');
 const bouton = document.querySelector('button');
 const yourRating = document.querySelector('.your-rating');
 
+yourRating.innerHTML = "0";
+
 allGrades.forEach(grade => {
     grade.addEventListener('click', (e) => {
 
